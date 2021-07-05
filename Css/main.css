@@ -1,7 +1,7 @@
 /* Start Variables */
 :root {
   --main-color: #f57412;
-  --main-padding: 100px;
+  --main-padding: 70px;
 }
 /* End Variables */
 /* Start Components */
@@ -210,7 +210,7 @@ body::-webkit-scrollbar {
 
 .design .container .card img {
   max-width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .design .container .card span {
   position: absolute;
@@ -222,6 +222,7 @@ body::-webkit-scrollbar {
   font-size: 30px;
   z-index: 2;
   transition: 0.4s;
+  
 }
 .design .container .card .overlay {
   width: 100%;
@@ -231,6 +232,7 @@ body::-webkit-scrollbar {
   left: 0;
   background-color: transparent;
   transition: 0.4s;
+   border-radius: 10px;
 }
 .design .container .card a {
   width: 100%;
@@ -266,7 +268,7 @@ body::-webkit-scrollbar {
 }
 .single .container .single-container video {
   width: 500px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 @media (max-width: 767px) {
   .single .container .single-container video {
@@ -309,7 +311,7 @@ body::-webkit-scrollbar {
 }
 .multi .container .multi-container video {
   width: 500px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 @media (max-width: 767px) {
   .multi .container .multi-container video {
@@ -353,7 +355,7 @@ body::-webkit-scrollbar {
 }
 .zombies .container .zombies-container video {
   width: 500px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 @media (max-width: 767px) {
   .zombies .container .zombies-container video {
