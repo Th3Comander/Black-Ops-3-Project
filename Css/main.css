@@ -83,6 +83,9 @@ body::-webkit-scrollbar {
   .header .container .toggle-menu {
     display: none;
   }
+    .header .container nav input {
+    display: none;
+  }
 }
 .header .container .toggle-menu {
   font-size: 22px;
